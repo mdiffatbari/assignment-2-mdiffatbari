@@ -11,6 +11,9 @@
 body{
     font-family: Quicksand;
 }
+main{
+    background-color: #F7F7F7;
+}
 
 .d-flex{
     display: flex;
@@ -26,9 +29,23 @@ body{
     background-color: #FEA301;
     border: none;
     color: white;
+    cursor: pointer;
+}
+.btn-one:hover{
+    filter: invert(1);
 }
 .text-center{
     text-align: center;
+}
+.heading-one{
+    font-weight: 700;
+    font-size: 2.88rem;
+    color: #000000;
+}
+.des-text{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #111111;
 }
 .orange{
     color: #FEA301;
@@ -39,6 +56,7 @@ body{
 .black{
     color: #111111;
 }
+
 
 
 /* ====================nav section css========================= */
@@ -74,4 +92,75 @@ nav .logo-tittle{
 }
 .nav-link .nv-4{
     color: #5D58EF;
+}
+
+/* ======================Hero Area CSS============================= */
+.hero-inner{
+    max-width: 1158px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-left-content{
+    max-width: 40rem;
+}
+.hero-left-content h1{
+    line-height: 3.8rem;
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+.hero-btn{
+    background-color: #111111;
+    margin-top: 1.5rem;
+}
+.hero-right-img img{
+    max-width: 29.25rem;
+}
+
+/* =============Standard-Curriculum-section=========== */
+
+.Standard-Curriculum-section{
+    padding-top: 3.75rem;
+    background: url(assets/bg.png);
+}
+.Standard-Curriculum-section-inner{
+    max-width: 1158px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 5rem 0rem;
+    gap: 1.8rem;
+}
+.Standard-Curriculum-cart{
+    text-align: center;
+    border-radius: 1.2rem;
+    border: 1px solid #DEF5FF;
+    padding: 3.2rem 2rem;
+}
+.Standard-Curriculum-cart img{
+    max-width: 8.5rem;
+}
+.Standard-Curriculum-cart h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+.Standard-Curriculum-cart p{
+    font-family: Raleway;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+    font-size: 1rem;
+    line-height: 1.75rem;
+    text-align: justify;
+    text-align-last: center;
+}
+.Standard-Curriculum-cart a{
+    text-decoration: none;
+    margin-top: 2.4rem;
+    display: inline-block;
+}
+.sc-cart-1{
+    background-image: linear-gradient(to bottom, #DEF5FF, #FFFFFF,  #FFFFFF,#FFFFFF, #FFFFFF);
+    border: 1px solid #DEF5FF;
+    box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.05);
 }
