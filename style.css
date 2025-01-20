@@ -11,3 +11,67 @@
 body{
     font-family: Quicksand;
 }
+
+.d-flex{
+    display: flex;
+}
+
+.btn-one{
+    font-weight: 600;
+    padding: 0.6rem;
+    width: 12rem;
+    height: 3.13rem;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    background-color: #FEA301;
+    border: none;
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+.orange{
+    color: #FEA301;
+}
+.sky-blue{
+    color: #01ACFD;
+}
+.black{
+    color: #111111;
+}
+
+
+/* ====================nav section css========================= */
+header{
+    background-color: #F7F7F7;
+    padding: 1rem 0;
+}
+nav .logo-img{
+    max-width: 3.9rem;
+    margin-right: 1rem;
+}
+nav .logo-tittle{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.nav-inner{
+    max-width: 1158px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    align-items: center;
+}
+.nav-link a{
+    padding: 0 2rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.nav-link .nv-3{
+    color: #05D4DF;
+}
+.nav-link .nv-4{
+    color: #5D58EF;
+}
