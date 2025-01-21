@@ -60,9 +60,14 @@ main{
 
 
 /* ====================nav section css========================= */
+marquee{
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.712);
+    padding: 0.8rem 0;
+    font-weight: 500;
+}
 header{
     background-color: #F7F7F7;
-    padding: 1rem 0;
 }
 nav .logo-img{
     max-width: 3.9rem;
@@ -99,6 +104,41 @@ nav .logo-tittle{
 .nav-link a:hover{
     color: #111111;
 }
+.nav-res-btn{
+    display: none;
+}
+
+/* ============nav responsive css============== */
+
+@media screen and (max-width:576px){
+    marquee{
+        display: none;
+    }
+    .logo-img{
+        max-width: 2.9rem;
+    }
+    .logo-tittle{
+        display: none;
+    }
+    .nav-link{
+        display: none;
+    }
+    .nav-res-btn{
+        display: block;
+        font-size: 2rem;
+    }
+    .nav-button{
+        display: none;
+    }
+    .nav-section{
+        border-bottom: 1px solid #FEA301;
+    }
+    .nav-inner{
+        padding: 1rem;
+    }
+
+
+}
 
 /* ======================Hero Area CSS============================= */
 .hero-inner{
@@ -123,6 +163,37 @@ nav .logo-tittle{
 .hero-right-img img{
     max-width: 29.25rem;
 }
+
+/* ==========Hero area responsive css=========== */
+
+@media screen and (max-width:576px){
+    .hero-section{
+        text-align: center;
+    }
+    .hero-inner{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+    .hero-right-img img{
+        max-width: 21rem;
+        margin-bottom: 1.25rem;
+    }
+    .hero-left-content h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .hero-left-content p{
+        font-size: 0.89rem;
+        padding: 0 6rem;
+    }
+    .hero-left-content button{
+        font-size: 1rem;
+        width: 8.2rem;
+        height: 2.6rem;
+    }
+}
+
 
 /* =============Standard-Curriculum-section=========== */
 
