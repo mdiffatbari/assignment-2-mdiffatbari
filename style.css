@@ -129,6 +129,9 @@ nav .logo-tittle{
 .Standard-Curriculum-section{
     padding-top: 3.75rem;
     background: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .Standard-Curriculum-section-inner{
     max-width: 1158px;
@@ -230,4 +233,115 @@ nav .logo-tittle{
 .Standard-Curriculum-section-arrow span:hover{
     cursor: pointer;
     filter: invert(1);
+}
+
+/* ==================Our Stories CSS================= */
+.Our-Stories{
+    background: url(assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3.75rem 0;
+}
+.Our-Stories h1{
+    font-weight: 700;
+    font-size: 2.9rem;
+    margin-bottom: 5rem;
+}
+.our-stories-inner{
+    max-width: 1158px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* align-items: stretch; */
+}
+.our-stories-right-content{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1rem;
+}
+.our-stories-carts{
+    background-color: #FFFFFF;
+}
+.our-stories-carts img{}
+.our-stories-carts button{
+    background-color: #3CD8E8;
+    color: white;
+    border-radius: 47.93px;
+    font-weight: 500;
+    font-family: Raleway;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 2.4rem;
+    position: relative;
+    top: -25px;
+}
+.our-stories-carts h4{}
+.our-stories-carts p{}
+.Our-Stories-last-btn{
+    background-color: #000000;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 5rem;
+}
+
+
+/* =================Footer Section CSS=============== */
+.footer{
+    background-color: #01ACFD;
+    color: white;
+}
+.footer-inner{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-logo img{
+    max-width: 7.7rem;
+}
+.footer-logo h2{
+    color: white;
+    line-height: 1.5rem;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 2.6erm;
+}
+.footer-left p{
+    color: white;
+    max-width: 25rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 2.2rem;
+}
+.footer-middle h3{
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.footer-middle a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.footer-right h3{
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.footer-right img{
+    max-width: 40px;
+}
+.footer-right img:hover{
+    cursor: pointer;
 }
