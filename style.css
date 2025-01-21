@@ -243,6 +243,17 @@ nav .logo-tittle{
     background-repeat: no-repeat;
     padding: 3.75rem 0;
 }
+.our-story-img-div{
+    width: 100%;
+    height: 300px;
+    background-image: url(assets/story-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.our-stories-left-content{
+    margin-right: 1rem;
+}
 .Our-Stories h1{
     font-weight: 700;
     font-size: 2.9rem;
@@ -252,8 +263,7 @@ nav .logo-tittle{
     max-width: 1158px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    /* align-items: stretch; */
+    align-items: stretch;
 }
 .our-stories-right-content{
     display: grid;
@@ -262,6 +272,7 @@ nav .logo-tittle{
 }
 .our-stories-carts{
     background-color: #FFFFFF;
+    border-radius: 20px;
 }
 .our-stories-carts img{}
 .our-stories-carts button{
@@ -344,4 +355,22 @@ nav .logo-tittle{
 }
 .footer-right img:hover{
     cursor: pointer;
+}
+
+/* ===========Footer Responsive CSS================= */
+
+@media screen and (max-width:576px) {
+    .footer-inner{
+        display: inline-block;
+        padding-left: 1rem;
+    }
+    .footer-left p{
+        max-width: 25rem;
+        font-size: 1rem;
+        margin-top: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .footer-right img{
+        max-width: 34px;
+    }
 }
