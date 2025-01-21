@@ -81,6 +81,9 @@ nav .logo-tittle{
 .nav-logo{
     align-items: center;
 }
+.nav-logo:hover{
+    cursor: pointer;
+}
 .nav-link a{
     padding: 0 2rem;
     text-decoration: none;
@@ -92,6 +95,9 @@ nav .logo-tittle{
 }
 .nav-link .nv-4{
     color: #5D58EF;
+}
+.nav-link a:hover{
+    color: #111111;
 }
 
 /* ======================Hero Area CSS============================= */
@@ -163,4 +169,65 @@ nav .logo-tittle{
     background-image: linear-gradient(to bottom, #DEF5FF, #FFFFFF,  #FFFFFF,#FFFFFF, #FFFFFF);
     border: 1px solid #DEF5FF;
     box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+}
+.sc-cart-2{
+    background-image: linear-gradient(to bottom, #FFF4DC, #FFFFFF,  #FFFFFF,#FFFFFF, #FFFFFF);
+    border: 1px solid #DEF5FF;
+    box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+}
+.sc-cart-3{
+    background-image: linear-gradient(to bottom, #EEE1FF, #FFFFFF,  #FFFFFF,#FFFFFF, #FFFFFF);
+    border: 1px solid #F2E8FF;
+    box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+}
+.sc-cart-1 a{
+    color: #64C8FF;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.sc-cart-2 a{
+    color: #F0AA00;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.sc-cart-3 a{
+    color: #8700FF;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Standard-Curriculum-cart a:hover{
+    color: #111111;
+}
+.Standard-Curriculum-section-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.Standard-Curriculum-section-arrow-area{
+    background-color: #FEA301;
+    padding: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 3.75rem;
+}
+.Standard-Curriculum-section-arrow i{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.Standard-Curriculum-section-arrow span:hover{
+    cursor: pointer;
+    filter: invert(1);
 }
