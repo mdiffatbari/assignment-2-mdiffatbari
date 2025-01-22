@@ -331,73 +331,12 @@ nav .logo-tittle{
 
 
 /* ==================Our Stories CSS================= */
-/* .Our-Stories{
-    background: url(assets/bg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 3.75rem 0;
-} */
-/* .our-story-img-div{
-    width: 100%;
-    height: 300px;
-    background-image: url(assets/story-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.our-stories-left-content{
-    margin-right: 1rem;
-    border-radius: 20px;
-}
-.Our-Stories h1{
-    font-weight: 700;
-    font-size: 2.9rem;
-    margin-bottom: 5rem;
-}
-.our-stories-inner{
-    max-width: 1158px;
-    margin: 0 auto;
-    display: flex;
-    align-items: stretch;
-}
-.our-stories-right-content{
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    gap: 1rem;
-}
-.our-stories-carts{
-    background-color: #FFFFFF;
-    border-radius: 20px;
-}
-.our-stories-carts img{}
-.our-stories-carts button{
-    background-color: #3CD8E8;
-    color: white;
-    border-radius: 47.93px;
-    font-weight: 500;
-    font-family: Raleway;
-    font-size: 1rem;
-    border: none;
-    padding: 10px 20px;
-    margin-left: 2.4rem;
-    position: relative;
-    top: -25px;
-}
-.our-stories-carts h4{}
-.our-stories-carts p{}
-.Our-Stories-last-btn{
-    background-color: #000000;
-    text-align: center;
-    margin: auto;
-    display: block;
-    margin-top: 5rem;
-}
-
- */
 .our-stories{
-    background-image: url(assets/bg.png);
+    background-image: url(assets/bg.png), linear-gradient(rgba(255, 255, 255, 0.2),rgba(254, 163, 1, 0.3));
+    background-blend-mode: overlay;
     padding: 3.75rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .our-stories h1{
     margin: 3.75rem 0;
