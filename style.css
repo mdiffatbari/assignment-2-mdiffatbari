@@ -189,6 +189,7 @@ nav .logo-tittle{
     }
     .hero-left-content button{
         font-size: 1rem;
+        font-family: Quicksand;
         width: 8.2rem;
         height: 2.6rem;
     }
@@ -279,13 +280,13 @@ nav .logo-tittle{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 .Standard-Curriculum-section-arrow-area{
     background-color: #FEA301;
-    padding: 3rem;
-    width: 2.5rem;
-    height: 2.5rem;
+    padding: 2.5rem;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     align-items: center;
     align-content: center;
@@ -330,14 +331,14 @@ nav .logo-tittle{
 
 
 /* ==================Our Stories CSS================= */
-.Our-Stories{
+/* .Our-Stories{
     background: url(assets/bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 3.75rem 0;
-}
-.our-story-img-div{
+} */
+/* .our-story-img-div{
     width: 100%;
     height: 300px;
     background-image: url(assets/story-1.png);
@@ -347,6 +348,7 @@ nav .logo-tittle{
 }
 .our-stories-left-content{
     margin-right: 1rem;
+    border-radius: 20px;
 }
 .Our-Stories h1{
     font-weight: 700;
@@ -391,6 +393,114 @@ nav .logo-tittle{
     display: block;
     margin-top: 5rem;
 }
+
+ */
+.our-stories{
+    background-image: url(assets/bg.png);
+    padding: 3.75rem 0;
+}
+.our-stories h1{
+    margin: 3.75rem 0;
+    font-size: 2.89rem;
+}
+ .our-stories-inner{
+    max-width: 1158px;
+    margin: 0 auto;
+    display: flex;
+ }
+.our-stories-left{
+    max-width: 33.75rem;
+    
+}
+.cart-area{
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+.cart-content{
+    position: relative;
+}
+.cart-area button{
+    background-color: #3CD8E8;
+    border-radius: 47.93px;
+    width: 174px;
+    height: 47px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 500;
+    position: absolute;
+    top: -30px;
+}
+.cart-area h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2.9rem;
+}
+.cart-area p{
+    font-family: Raleway;
+    line-height: 1.75rem;
+    color: #666666;
+}
+.our-stories .cart-content{
+    padding: 38px;
+}
+.our-stories .last-btn{
+    background-color: #000000;
+    margin: auto;
+    display: block;
+    margin-top: 5rem;
+}
+.our-stories-right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.our-stories-right .cart-area{
+    max-width: 18rem;
+}
+.our-stories-right .cart-content{
+    padding: 28px 37px;
+}
+.our-stories-right img{
+    max-width: 18rem;
+}
+.our-stories-right button{
+    width: 174px;
+    height: 38px;
+    top: -25px;
+}
+.our-stories-right h3{
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+#our-stories-right-btn-1{
+    background-color: #95B226;
+}
+#our-stories-right-btn-2{
+    background-color: #5D58F0;
+}
+
+/* ==================Our Stories Responsive CSS================= */
+@media screen and (max-width:576px){
+    .our-stories-left{
+        display: none;
+    }
+    .our-stories-right{
+        padding-right: 1rem;
+    }
+    .our-stories .last-btn{
+        margin-top: 1.50rem;
+        font-family: Quicksand;
+        font-size: 1rem;
+        width: 131px;
+        height: 42px;
+    }
+}
+
 
 
 /* =================Footer Section CSS=============== */
