@@ -306,6 +306,29 @@ nav .logo-tittle{
     filter: invert(1);
 }
 
+/* =============Standard-Curriculum-section-Responsive=========== */
+
+@media screen and (max-width:576px){
+    .Standard-Curriculum-section h1{
+        font-size: 1.6rem;
+        margin-bottom: 1.25rem;
+    }
+    .Standard-Curriculum-section-inner{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .Standard-Curriculum-cart p{
+        padding: 0 3rem;
+    }
+    .Standard-Curriculum-cart a{
+        font-size: 1rem;
+    }
+    .Standard-Curriculum-section-arrow-area{
+        display: none;
+    }
+}
+
+
 /* ==================Our Stories CSS================= */
 .Our-Stories{
     background: url(assets/bg.png);
