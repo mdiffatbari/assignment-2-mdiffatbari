@@ -335,8 +335,6 @@ nav .logo-tittle{
     background-image: url(assets/bg.png), linear-gradient(rgba(255, 255, 255, 0.2),rgba(254, 163, 1, 0.3));
     background-blend-mode: overlay;
     padding: 3.75rem 0;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .our-stories h1{
     margin: 3.75rem 0;
